@@ -1,0 +1,256 @@
+/* -------------------------Обнуление---------------------------------------- */
+* {
+    padding: 0;
+    margin: 0;
+    border: 0; }
+  
+  *, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+  
+  :focus, :active {
+    outline: none; }
+  
+  a:focus, a:active {
+    outline: none; }
+  
+  nav, footer, header, aside {
+    display: block; }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%; }
+  
+  input, button, textarea {
+    font-family: inherit; }
+  
+  input::-ms-clear {
+    display: none; }
+  
+  button {
+    cursor: pointer; }
+  
+  button::-moz-focus-inner {
+    padding: 0;
+    border: 0; }
+  
+  a, a:visited {
+    text-decoration: none; }
+  
+  a:hover {
+    text-decoration: none; }
+  
+  ul li {
+    list-style: none; }
+  
+  img {
+    vertical-align: top; }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit; } 
+
+  /*-------------------------Header----------------------------------------*/
+  header{
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    border-bottom: rgb(238, 237, 237) 1px solid;
+  }
+  .logo{
+    height: 10vh;
+    margin-left: 10vw;
+  }
+  .telephone{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: 6vw;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .application{
+    min-width: 15vw;
+    height: 6vh;
+    margin-right: 10vw;
+    border-radius: 2vw;
+    background-color: #08df5e;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  nav{
+    width: 100%;
+    height: 5vh;
+    margin-top: 2vh;
+    
+  }
+  .nav{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  a{
+    color: black;
+  }
+
+ /* -----------------------------MAIN----------------------------*/
+ main{
+  background-color:#EFF1F4;
+ }
+hr{
+  width: 100%;
+  border-bottom: rgb(180, 179, 179) 1px solid;
+  margin-top: 1vh;
+}
+ .add_b{
+  backdrop-filter: blur(7px);
+   background-size: cover;
+  position: absolute;
+  height: 100vh;
+ }
+ .add{
+  width: 100%;
+  height:100vh ;
+  background-image: url(/img/add.jpg);
+  background-repeat: no-repeat;
+ }
+ h1{
+  width: 70%;
+  color:white;
+  font-size: 10vh;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 15vh;
+  margin-left: 5vw;
+ }
+ .green_h1{
+  color:#04fd4b;
+ }
+ .application_add{
+  min-width: 20vw;
+    height:7vh;
+    margin-left: 10vw;
+    border-radius: 2vw;
+    background-color: #08df5e;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3vh;
+ }
+ .context{
+  width: 70%;
+  font-size: 5vh;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:rgb(219, 83, 83);
+  margin-left: 5vw;
+  margin-top: 3vh;
+  margin-bottom: 5vh;
+ }
+
+
+.goods{
+  display: flex;
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 8vh;
+  justify-content: center;
+  height: 40vh;
+  background-color:rgb(176, 175, 175);
+  border-radius:7vh;
+}
+.goods_warning{
+  width: 80%;
+  height:28vh;
+  background-color:rgb(91, 90, 90);
+  justify-self: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 6vh;
+  border-radius:6vh;
+}
+.goods_warning_text{
+  color:black;
+  font-size: 4vh;
+  margin-top: 11vh;
+}
+
+
+.comp_info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 7vh;
+}
+ .info_h{
+  font-size: 5vh;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 2vh;
+ }
+ .info_text{
+  width: 100%;
+  text-align: center;
+  font-size: 4vh;
+  margin-top: 2vh;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 7vh;
+ }
+
+ /*---------------------------FOOTER--------------------------*/
+
+ footer{
+  width: 100%;
+  min-height:60vh;
+  background-color:rgb(60, 60, 60);
+  color:white;
+  display: flex;
+  flex-direction: column;
+ }
+.footer, .footer_apl, .inf, .application{
+  text-align: center;
+}
+.footer{
+  font-size: 5vh;
+  margin-top: 10vh;
+}
+.footer_apl{
+  width:40%;
+  font-size: 4vh;
+  margin-left: 30%;
+  margin-top: 2vh;
+}
+.inf{
+  width:30%;
+  margin-left: 15%;
+  margin-top: 5vh;
+  font-size: 3vh;
+}
+.applications{
+ width:30%;
+ margin-top: 5vh;
+}
+.in{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+input{
+  margin-bottom: 2vh;
+  min-width: 15vw;
+}
+.company{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 7vh;
+  text-align: center;
+}
